@@ -18,7 +18,7 @@ namespace Lang.ToolAPI
             builder.Services.AddSwaggerGen();
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("cors", builder =>
+                options.AddDefaultPolicy( builder =>
                 {
                     builder.SetIsOriginAllowed(p => true) //允许指定域名访问
                     .AllowAnyMethod()

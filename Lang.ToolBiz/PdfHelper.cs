@@ -101,7 +101,6 @@ namespace Lang.ToolBiz
 
                 if (string.IsNullOrWhiteSpace(picInfo.Url))
                     picInfo.Url = $"data:{picInfo.PicType};base64,{Convert.ToBase64String(pData)}";
-                //先把pData传阿里云得到url  如果有其他方式传改这里 或者转base64
 
                 picInfoList.Add(picInfo);
             }
