@@ -7,3 +7,8 @@
 /Lang.ToolBiz/bin/Debug/net6.0
 /Lang.ToolBiz/obj
 /Lang.ToolAPI/obj/Debug/net6.0
+/Lang.ToolAPI/obj
+/Lang.ToolAPI/bin/Release/net6.0
+/Lang.ToolAPI/Properties/PublishProfiles
+/Lang.ToolAPI/.config
+/Lang.ToolBiz/bin/Release/net6.0
